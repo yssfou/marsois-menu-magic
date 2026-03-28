@@ -18,6 +18,7 @@ const Index = () => {
           <span className="hidden md:block font-display text-sm text-muted-foreground uppercase tracking-widest">
             Fast Food Tunisien
           </span>
+          <ThemeToggle />
         </div>
       </header>
 
