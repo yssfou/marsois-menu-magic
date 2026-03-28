@@ -12,7 +12,6 @@ const MenuContent = ({ activeTab }: MenuContentProps) => {
   return (
     <div key={section.id} className="bg-card rounded-xl p-6 md:p-8 shadow-xl border border-border/50">
       <div className="flex items-center gap-3 mb-6">
-        <span className="text-2xl">{section.icon}</span>
         <h2 className="section-title">{section.title}</h2>
       </div>
 

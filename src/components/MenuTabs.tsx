@@ -17,7 +17,7 @@ const MenuTabs = ({ activeTab, onTabChange }: MenuTabsProps) => (
             : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted"
         }`}
       >
-        <span className="mr-1.5">{section.icon}</span>
+        
         {section.id === "baguette" ? "BAGUETTE FARCIE" : section.title}
       </button>
     ))}
