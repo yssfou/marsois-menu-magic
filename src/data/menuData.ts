@@ -18,7 +18,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "sandwich",
     title: "SANDWICH",
-    icon: "🥪",
+    icon: "",
     items: [
       { name: "Thon avec frites", description: "Thon frais, frites croustillantes", price: "7dt" },
       { name: "Jambon avec frites", description: "Jambon fumé, frites dorées", price: "7dt" },
@@ -34,7 +34,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "makloud",
     title: "MAKLOUD",
-    icon: "🫓",
+    icon: "",
     items: [
       { name: "Thon avec frites", price: "8dt" },
       { name: "Jambon avec frites", price: "8dt" },
@@ -50,7 +50,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "baguette",
     title: "BAGUETTE FARCIE ou CORNET",
-    icon: "🥖",
+    icon: "",
     hasSizes: true,
     items: [
       { name: "Thon avec frites", priceMoy: "12dt", priceMaxi: "17dt" },
@@ -67,7 +67,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "supplements",
     title: "SUPPLÉMENTS",
-    icon: "➕",
+    icon: "",
     items: [
       { name: "Gruyère", price: "4dt" },
       { name: "Mozzarella", price: "3.5dt" },

@@ -7,8 +7,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       {/* Watermark decorations */}
-      <div className="watermark-icon top-20 left-10 text-[200px] rotate-12 hidden lg:block">🥪</div>
-      <div className="watermark-icon bottom-40 right-10 text-[180px] -rotate-12 hidden lg:block">🔥</div>
+      <div className="watermark-icon top-20 left-10 text-[200px] rotate-12 hidden lg:block opacity-5 font-display text-primary">S</div>
+      <div className="watermark-icon bottom-40 right-10 text-[180px] -rotate-12 hidden lg:block opacity-5 font-display text-primary">M</div>
 
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/30">
