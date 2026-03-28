@@ -67,7 +67,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "supplements",
     title: "SUPPLÉMENTS",
-    icon: "➕",
+    icon: "",
     items: [
       { name: "Gruyère", price: "4dt" },
       { name: "Mozzarella", price: "3.5dt" },
