@@ -18,7 +18,7 @@ export const menuSections: MenuSection[] = [
   {
     id: "sandwich",
     title: "SANDWICH",
-    icon: "🥪",
+    icon: "",
     items: [
       { name: "Thon avec frites", description: "Thon frais, frites croustillantes", price: "7dt" },
       { name: "Jambon avec frites", description: "Jambon fumé, frites dorées", price: "7dt" },
