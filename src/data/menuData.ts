@@ -38,18 +38,18 @@ export const menuSections: MenuSection[] = [
     items: [
       { name: "Thon avec frites", price: "8dt" },
       { name: "Jambon avec frites", price: "8dt" },
-      { name: "Escalope", price: "11dt" },
+      { name: "Escalope", price: "9dt" },
       { name: "Escalope Panée", price: "10dt" },
       { name: "Viande Hachée", price: "10dt" },
       { name: "Merguez", price: "10dt" },
-      { name: "Foie", price: "11dt" },
-      { name: "Chevrettes", price: "13dt" },
+      { name: "Foie", price: "10dt" },
+      { name: "Chevrettes", price: "11dt" },
       { name: "Mixte", price: "13dt" },
     ],
   },
   {
     id: "baguette",
-    title: "BAGUETTE FARCIE / CORNET",
+    title: "BAGUETTE FARCIE ou CORNET",
     icon: "🥖",
     hasSizes: true,
     items: [
