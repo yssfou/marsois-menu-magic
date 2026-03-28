@@ -49,7 +49,7 @@ export const menuSections: MenuSection[] = [
   },
   {
     id: "baguette",
-    title: "BAGUETTE FARCIE / CORNET",
+    title: "BAGUETTE FARCIE ou CORNET",
     icon: "🥖",
     hasSizes: true,
     items: [
