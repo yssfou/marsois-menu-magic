@@ -1,13 +1,9 @@
-import { useState } from "react";
 import MarsoisLogo from "@/components/MarsoisLogo";
-import MenuTabs from "@/components/MenuTabs";
 import MenuContent from "@/components/MenuContent";
-import FoodGallery from "@/components/FoodGallery";
 import Footer from "@/components/Footer";
+import { menuSections } from "@/data/menuData";
 
 const Index = () => {
-  const [activeTab, setActiveTab] = useState("sandwich");
-
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       {/* Watermark decorations */}
@@ -24,20 +20,12 @@ const Index = () => {
         </div>
       </header>
 
-      {/* Tabs */}
-      <nav className="container mx-auto px-4 py-6">
-        <MenuTabs activeTab={activeTab} onTabChange={setActiveTab} />
-      </nav>
-
-      {/* Main content: menu + gallery */}
-      <main className="container mx-auto px-4 pb-8">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-          <div className="lg:col-span-3">
-            <MenuContent activeTab={activeTab} />
-          </div>
-          <div className="lg:col-span-2">
-            <FoodGallery />
-          </div>
+      {/* Main content: all sections */}
+      <main className="container mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {menuSections.map((section) => (
+            <MenuContent key={section.id} activeTab={section.id} />
+          ))}
         </div>
       </main>
 
