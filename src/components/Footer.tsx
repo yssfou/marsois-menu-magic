@@ -13,7 +13,10 @@ const Footer = () => (
           </svg>
         </a>
       </div>
-      <p className="text-xs text-muted-foreground/60">© 2006–2026 MARSOIS. Tous droits réservés.</p>
+      <div className="text-xs text-muted-foreground/60 text-center md:text-right">
+        <p>© 2006–2026 MARSOIS. Tous droits réservés.</p>
+        <p className="mt-1">Créé par Youssef Ourabi</p>
+      </div>
     </div>
   </footer>
 );
