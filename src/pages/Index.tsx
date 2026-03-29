@@ -1,4 +1,4 @@
-import MarsoisLogo from "@/components/MarsoisLogo";
+import marsoisLogo from "@/assets/marsois-logo.png";
 import MenuContent from "@/components/MenuContent";
 import Footer from "@/components/Footer";
 
