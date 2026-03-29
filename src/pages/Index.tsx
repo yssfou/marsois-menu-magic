@@ -1,7 +1,7 @@
 import MarsoisLogo from "@/components/MarsoisLogo";
 import MenuContent from "@/components/MenuContent";
 import Footer from "@/components/Footer";
-import ThemeToggle from "@/components/ThemeToggle";
+
 import { menuSections } from "@/data/menuData";
 
 const Index = () => {
@@ -18,7 +18,7 @@ const Index = () => {
           <span className="hidden md:block font-display text-sm text-muted-foreground uppercase tracking-widest">
             Fast Food Tunisien
           </span>
-          <ThemeToggle />
+          <span className="font-display text-xs text-muted-foreground uppercase tracking-widest">Menu</span>
         </div>
       </header>
 
