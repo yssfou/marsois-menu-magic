@@ -14,7 +14,17 @@ const Index = () => {
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/30">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <img src={marsoisLogo} alt="MARSOIS" className="h-12 w-auto" />
+          <div className="flex items-center gap-3">
+            <img src={marsoisLogo} alt="MARSOIS" className="h-12 w-auto" />
+            <div>
+              <h1 className="font-display text-3xl md:text-4xl font-bold text-primary tracking-widest">
+                MARSOIS
+              </h1>
+              <p className="text-muted-foreground text-xs md:text-sm italic font-body tracking-wide">
+                Fait avec passion depuis 2006
+              </p>
+            </div>
+          </div>
           <span className="hidden md:block font-display text-sm text-muted-foreground uppercase tracking-widest">
             Fast Food Tunisien
           </span>
