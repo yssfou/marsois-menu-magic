@@ -33,7 +33,7 @@ export const menuSections: MenuSection[] = [
   },
   {
     id: "makloud",
-    title: "MAKLOUD",
+    title: "MAKLOUB",
     icon: "",
     items: [
       { name: "Thon avec frites", price: "8dt" },
